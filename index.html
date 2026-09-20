@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё любимое чудо</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .container::before {
+            content: "🍰";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            font-size: 60px;
+            opacity: 0.1;
+            transform: rotate(-20deg);
+        }
+        h1 {
+            color: #6a0dad;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #6a0dad;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #6a0dad;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #4b0082;
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Моя любимая девочка</h1>
+    
+    <p>
+        Я долго думал над твоими словами. Ты права: когда человеку действительно больно, он не кричит об этом. Я услышал тебя. 
+    </p>
+    
+    <p>
+        Я не хочу, чтобы это выглядело как очередная попытка удержать тебя. Ты сказала, что не видишь смысла дальше в общении — и я принимаю это. <span class="highlight">Это твоё право, и я уважаю твой выбор.</span>
+    </p>
+
+    <p>
+        Этот сайт — не просьба вернуться. Это просто место, где я оставил всё то, что не успел сказать. Здесь нет давления. Только моя благодарность за то, что ты была в моей жизни.
+    </p>
+
+    <p>
+        Я обещал меняться. Я буду это делать ради того, чтобы стать лучше. Спасибо тебе за эти 100 дней и за всё, что было.
+    </p>
+
+    <a href="memories.html" class="btn">Оставить здесь воспоминания</a>
+
+    <div class="footer">
+        Сделано с теплом. 2026.
+    </div>
+</div>
+
+</body>
+</html>
